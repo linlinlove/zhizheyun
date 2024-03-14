@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "面试详情",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "separate-map": "/components/map/index"
+  }
+}

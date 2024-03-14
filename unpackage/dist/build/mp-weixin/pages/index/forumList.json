@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "论坛搜索",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "post-card": "/components/common/postCrad"
+  }
+}

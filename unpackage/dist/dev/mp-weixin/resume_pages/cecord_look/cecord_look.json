@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "预览实录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "job-posting-com": "/resume_pages/components/job_posting"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="grid box-border vw-100 data-v-dd3857a8"><block wx:for="{{list}}" wx:for-item="i" wx:for-index="k" wx:key="k"><view data-event-opts="{{[['tap',[['Jump',['$0'],[[['list','',k]]]]]]]}}" catchtap="__e" class="data-v-dd3857a8"><image src="{{i.imgUrl}}" mode class="data-v-dd3857a8"></image><text class="data-v-dd3857a8">{{i.text}}</text></view></block></view>

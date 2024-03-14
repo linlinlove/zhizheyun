@@ -1,0 +1,82 @@
+.head-line {
+	/* border-top: 18rpx solid #F5F5F5; 原来*/
+	border-top: 22rpx solid #F5F5F5;
+}
+
+.index-box {
+	padding: 0 20upx 40upx;
+}
+
+.page {
+	padding: 30upx 20upx;
+}
+
+.jiantou {
+	height: 14upx;
+	width: 14upx;
+	border-right: 4upx solid #BABABA;
+	border-bottom: 4upx solid #BABABA;
+	transform: rotate(-45deg);
+}
+
+.cecordAssembly {
+	background-color: #fff;
+	z-index: 99;
+	height: auto !important;
+	color: #4F4F4F;
+	font-size: 28upx;
+	width: 100vw !important;
+}
+.cecordAssembly_u {
+	color: #4F4F4F;
+	font-size: 28upx;
+}
+
+.uni-forms-item {
+	border-bottom: 1upx solid #ECECEC;
+}
+
+.uni-forms-item__content {
+	display: flex;
+	align-items: center;
+
+}
+
+.form-input {
+	width: 100%;
+	text-align: right;
+}
+
+.uni-forms-item__label {
+	width: auto !important;
+}
+
+.uni-forms-item__error {
+	right: 0 !important;
+
+}
+
+.textLength {
+	position: absolute;
+	right: 12upx;
+	bottom: 5upx;
+	font-size: 24upx;
+	color: #BABABA;
+	letter-spacing: 2upx;
+
+}
+/* 左右布局样式 */
+.bor-btm{
+	border-bottom: 1upx solid #E2E2E2;
+	color: #4D4D4D;
+	font-size: 28upx;
+	padding: 40upx 0;
+}
+.bor-top{
+	border-top: 1upx solid #E2E2E2;
+	color: #4D4D4D;
+	font-size: 28upx;
+	padding: 40upx 0;
+}
+
+

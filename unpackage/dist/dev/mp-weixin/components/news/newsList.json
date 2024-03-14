@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "swipe-delete": "/components/swipedelete/swipedelete",
+    "long-press-modal": "/components/longPressModal/index"
+  }
+}

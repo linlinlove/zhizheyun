@@ -1,0 +1,12 @@
+.preview_img.data-v-1fd37523 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20rpx 0;
+}
+.preview_img image.data-v-1fd37523 {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 32rpx;
+  border-radius: 5rpx;
+}
+

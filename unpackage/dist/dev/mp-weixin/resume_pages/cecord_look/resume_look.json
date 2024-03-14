@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "简历预览",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "painter": "/static/painter/painter"
+  }
+}

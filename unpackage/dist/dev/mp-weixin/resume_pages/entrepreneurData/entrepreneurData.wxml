@@ -1,0 +1,1 @@
+<view class="ship">{{''+showMsg+''}}</view>

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#157dfa",
+  "usingComponents": {
+    "u-back-top": "/uni_modules/uview-ui/components/u-back-top/u-back-top",
+    "index-icon-title": "/components/index/indexIconTitle",
+    "live": "/components/index/live",
+    "hot-project": "/components/index/hotProject",
+    "hot-job": "/components/index/hotJob",
+    "community": "/components/index/community",
+    "top-card": "/components/index/topCard",
+    "protocol": "/components/index/protocol"
+  }
+}

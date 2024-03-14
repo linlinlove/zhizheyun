@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "直播课程",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}

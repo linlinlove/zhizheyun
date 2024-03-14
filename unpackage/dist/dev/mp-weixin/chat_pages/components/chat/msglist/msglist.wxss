@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*.chat-bg{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 50px;
+}*/
+.scroll_view.data-v-5654686d,.scroll_view_change.data-v-5654686d {
+	/* width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 170rpx; */
+	background-color: #FAFAFA;
+	padding-bottom: 100rpx;
+}
+.scroll_view_X.data-v-5654686d,
+.scroll_view_change_X.data-v-5654686d{
+	padding-bottom: 230rpx;
+}
+.message.data-v-5654686d {
+	height: auto;
+	padding: 0 30rpx;
+	position: relative;
+}
+.time.data-v-5654686d {
+	margin: 14rpx 0;
+	text-align: center;
+}
+.time .time-text.data-v-5654686d {
+	display: inline-block;
+	padding: 6rpx 20rpx 0 20rpx;
+	font-size: 24rpx;
+	color: #fff;
+	line-height: 28rpx;
+	border-radius: 4rpx;
+	background-color: #dcdcdc;
+}
+.user .user-text.data-v-5654686d {
+	margin: auto 100rpx 8rpx;
+	font-size: 20rpx;
+	color: #dcdcdc;
+	display: block;
+}
+.avatar.data-v-5654686d {
+	width: 72rpx;
+	height: 72rpx;
+	margin: 0 20rpx 0 0;
+	border-radius: 6rpx;
+	float: left;
+}
+.msg.data-v-5654686d {
+	display: inline-block;
+	padding: 20rpx;
+	max-width: calc(85% - 80rpx);
+	min-height: 40rpx; 
+	font-size: 24rpx;
+	/*overflow: hidden;*/
+	text-align: left;
+	word-break: break-all;
+	background-color: #fff;
+	border-radius: 26rpx;
+	position: relative;
+	margin-top: 24rpx;
+}
+.msg .msg_poprightarrow.data-v-5654686d {
+	position: absolute;
+	right: -10rpx;
+	height: 18rpx;
+	width: 18rpx;
+	margin-top: -10rpx;
+}
+.msg .msg_popleftarrow.data-v-5654686d{
+	position:absolute;
+	left: -14rpx;
+	height: 18rpx;
+	width: 18rpx;
+	margin-top: -10rpx;
+}
+.msg .msg-text.data-v-5654686d {
+	line-height: 40rpx;
+	font-size: 32rpx;
+	margin: 0;
+}
+/*.msg:before {
+	content: " ";
+	position: absolute;
+	top: 9px;
+	right: 100%;
+	border: 6px solid transparent;
+	border-right-color: #EDEDED;
+}*/
+.self.data-v-5654686d {
+	text-align: right;
+}
+.self .avatar.data-v-5654686d {
+	float: right;
+	margin: 0 0 0 20rpx;
+}
+.user.data-v-5654686d {
+	position: relative;
+	bottom: -30rpx;
+}
+.self .msg.data-v-5654686d {
+	background-color: #0873DE;
+	color: #fff;
+}
+.self .msg.data-v-5654686d:before {
+	right: inherit;
+	left: 100%;
+	border-right-color: transparent;
+	border-left-color: #b2e281;
+}
+.template.data-v-5654686d {
+	display: inline;
+}
+.err.data-v-5654686d{
+	width: 32rpx;
+	height: 32rpx;
+	position: absolute;
+	left: -40rpx;
+}
+.hide.data-v-5654686d{
+	display: none;
+}
+.show.data-v-5654686d{
+	display: block;
+}
+.positionDetails.data-v-5654686d {
+  display: flex;
+  flex-direction: column;
+  background: #cae0e269;
+  border-radius: 30rpx;
+  padding: 20rpx;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+}
+.positionDetails .item.data-v-5654686d {
+  margin: 10rpx;
+  display: flex;
+}
+.positionDetails .item .item-a.data-v-5654686d {
+  display: flex;
+}
+.positionDetails .item .item-c.data-v-5654686d {
+  display: flex;
+}
+.positionDetails .item .item-d.data-v-5654686d {
+  display: flex;
+}
+.item-a1.data-v-5654686d {
+  font-weight: 600;
+  width: 50%;
+}
+.item-a2.data-v-5654686d {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  color: blue;
+}
+.item-b.data-v-5654686d {
+  display: flex;
+  font-size: 24rpx;
+  color: #252222;
+  width: 80%;
+  font-size: 24rpx;
+  color: #252222;
+  width: 80%;
+}
+.item-c-2.data-v-5654686d {
+  margin-left: 30rpx;
+}
+/* .btn_{
+	display: grid;
+	grid-template-columns: 100upx 100upx;
+	justify-content: space-between;
+} */
+/* .tilte_a{
+	font-size: 28upx;
+}
+.item_a{
+	line-height: 32upx;
+} */
+

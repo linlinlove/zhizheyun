@@ -1,0 +1,10 @@
+
+.btn-box.data-v-05b34e7b {
+	position: fixed;
+	bottom: 50rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 90vw;
+}
+

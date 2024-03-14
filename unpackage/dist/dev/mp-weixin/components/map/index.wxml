@@ -1,0 +1,1 @@
+<map class="map data-v-acd30798" markers="{{markers}}" longitude="{{longitude}}" latitude="{{latitude}}" data-event-opts="{{[['tap',[['mapDetail',['$event']]]]]}}" bindtap="__e"></map>

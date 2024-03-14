@@ -1,0 +1,437 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		/* {
+			"path": "pages/loadPage/loadPage",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, */
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#157dfa"
+			}
+		}, {
+			"path": "pages/index/put_questions",
+			"style": {
+				"navigationBarTitleText": "提问",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/index/question_answering",
+			"style": {
+				"navigationBarTitleText": "问题回答",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/change_city",
+			"style": {
+				"navigationBarTitleText": "选择城市",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/forum_detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/index/forumList",
+			"style": {
+				"navigationBarTitleText": "论坛搜索",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#157DFA",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/my/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/my/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#157DFA",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/news/interview_details",
+			"style": {
+				"navigationBarTitleText": "面试详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			},
+			"mp-weixin": {
+				"usingComponents": {
+					"routePlan": "plugin://routePlan/index"
+				}
+			}
+
+		}, {
+			"path": "pages/customized/customized",
+			"style": {
+				"navigationBarTitleText": "就业定制",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/customized/job_details",
+			"style": {
+				"navigationBarTitleText": "职位详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/position/position",
+			"style": {
+				"navigationBarTitleText": "职位",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#157DFA",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			},
+			"onReachBottomDistance": 60
+
+		}, {
+			"path": "pages/position/add_post",
+			"style": {
+				"navigationBarTitleText": "添加求职期望",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/position/job_detail",
+			"style": {
+				"navigationBarTitleText": "职位详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "pages/index/more_courses",
+			"style": {
+				"navigationBarTitleText": "直播课程",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+
+		},  {
+			"path": "pages/index/industry_courses",
+			"style": {
+				"navigationBarTitleText": "产业课程",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+
+		},{
+			"path": "pages/position/company_detail",
+			"style": {
+				"navigationBarTitleText": "公司详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "components/index/protocolDetails",
+			"style": {
+				"navigationBarTitleText": "协议详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/index/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课程详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [{
+		"root": "resume_pages",
+		"pages": [{
+			"path": "cecord/cecord",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord2",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord3",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord4",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord5",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord6",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "cecord/cecord7",
+			"style": {
+				"navigationBarTitleText": "我的实录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "practicewelfare/practicewelfare",
+			"style": {
+				"navigationBarTitleText": "践行公益",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "serach_page/serach_page",
+			"style": {
+				"navigationBarTitleText": "职位搜索",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "components/project_publishing_detail",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "job_classification/job_classification",
+			"style": {
+				"navigationBarTitleText": "岗位分类",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+		}, {
+			"path": "job_record/job_record",
+			"style": {
+				"navigationBarTitleText": "求职记录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "entrepreneurship/entrepreneurship",
+			"style": {
+				"navigationBarTitleText": "创新创业发布",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "job_posting/job_posting",
+			"style": {
+				"navigationBarTitleText": "求职发布",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "resume_list/resume_list",
+			"style": {
+				"navigationBarTitleText": "简历列表",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "projectRequirement/projectRequirement",
+			"style": {
+				"navigationBarTitleText": "项目需求",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "requirementDetails/requirementDetails",
+			"style": {
+				"navigationBarTitleText": "项目需求详情",
+				"enablePullDownRefresh": false
+			}
+
+		}    ,{
+					"path" : "entrepreneurData/entrepreneurData",
+					"style" :                                                                                    
+				{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+				
+				}
+                ,{
+                    "path" : "cecord_look/cecord_look",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "预览实录",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+				,{
+				    "path" : "cecord_look/resume_look",
+				    "style": 	                                                                                 
+				{
+				    "navigationBarTitleText": "简历预览",
+				    "enablePullDownRefresh": false,
+					"usingComponents":{
+					    "painter":"/static/painter/painter"
+					}
+				}
+				
+				}
+				
+                ,{
+                    "path" : "electronic_contract/electronic_contract",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "电子合同",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "cecord_resume/cecord_resume",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+             
+              
+                
+            ]
+	}, {
+		"root": "chat_pages",
+		"pages": [{
+			"path": "chatroom/chatroom"
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "职者云",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 150
+	},
+	"tabBar": {
+		"selectedColor": "#1296db",
+		"color": "#515151",
+		"list": [{
+			"selectedIconPath": "static/tabble/tab1ed.png",
+			"iconPath": "static/tabble/tab1.png",
+			"pagePath": "pages/index/index",
+			"text": "首页"
+		}, {
+			"selectedIconPath": "static/tabble/tab2ed.png",
+			"iconPath": "static/tabble/tab2.png",
+			"pagePath": "pages/position/position",
+			"text": "职位"
+		}, {
+			"selectedIconPath": "static/tabble/tab3ed.png",
+			"iconPath": "static/tabble/tab3.png",
+			"pagePath": "pages/customized/customized",
+			"text": "就业定制"
+		}, {
+			"selectedIconPath": "static/tabble/tab4ed.png",
+			"iconPath": "static/tabble/tab4.png",
+			"pagePath": "pages/news/news",
+			"text": "消息"
+		}, {
+			"selectedIconPath": "static/tabble/tab5ed.png",
+			"iconPath": "static/tabble/tab5.png",
+			"pagePath": "pages/my/my",
+			"text": "我的"
+		}]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

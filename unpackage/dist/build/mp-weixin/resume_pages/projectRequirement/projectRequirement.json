@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "项目需求",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}

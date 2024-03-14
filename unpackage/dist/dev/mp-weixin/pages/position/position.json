@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "职位",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#157DFA",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "serach-input": "/components/common/serachInput",
+    "position-list": "/components/position/positionList"
+  }
+}

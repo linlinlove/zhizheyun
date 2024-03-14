@@ -1,0 +1,1 @@
+<view class="box-border btn p-3 data-v-66f1d0ac"><view data-event-opts="{{[['tap',[['btnFn']]]]}}" class="{{['data-v-66f1d0ac','btn-body',isEmptyBtn?'btn-empty':'']}}" bindtap="__e"><slot></slot></view></view>

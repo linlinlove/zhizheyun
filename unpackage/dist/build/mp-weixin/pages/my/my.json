@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#157DFA",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "function-list": "/components/my/functionList",
+    "top-card": "/components/my/topCard",
+    "button-operation": "/components/common/buttonOperation"
+  }
+}

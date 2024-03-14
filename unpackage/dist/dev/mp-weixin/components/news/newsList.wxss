@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-5cebb222 {
+  width: 100%;
+  overflow: hidden;
+}
+.chat_title.data-v-5cebb222 {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  height: 128rpx;
+}
+.chat_title text.data-v-5cebb222 {
+  line-height: 96rpx;
+  font-size: 64rpx;
+  font-weight: 400;
+  margin-left: 32rpx;
+}
+.search.data-v-5cebb222,
+.search_input.data-v-5cebb222 {
+  width: 100%;
+  height: 88rpx;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.search.data-v-5cebb222 {
+  justify-content: space-around;
+}
+.search_input.data-v-5cebb222 {
+  justify-content: space-around;
+}
+.search view.data-v-5cebb222,
+.search_input view.data-v-5cebb222 {
+  height: 64rpx;
+  line-height: 64rpx;
+  background-color: #fff;
+  border-radius: 17px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 32rpx;
+}
+.search view.data-v-5cebb222 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.search image.data-v-5cebb222 {
+  display: block;
+  width: 5%;
+  height: 50%;
+}
+.search_input view.data-v-5cebb222 {
+  padding-left: 24rpx;
+  text-align: left;
+  flex: 1;
+  margin: 0 28rpx 0 32rpx;
+}
+.search icon.data-v-5cebb222,
+.search_input icon.data-v-5cebb222 {
+  display: inline-block;
+  margin: 8rpx 12rpx 0;
+  font-size: 24rpx;
+}
+.search text.data-v-5cebb222 {
+  font-size: 30rpx;
+  color: #9B9B9B;
+}
+.search_input text.data-v-5cebb222 {
+  display: inline-block;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #0873DE;
+  margin-right: 32rpx;
+}
+.search_input input.data-v-5cebb222 {
+  font-size: 28rpx;
+  width: 90%;
+}
+.mask.data-v-5cebb222 {
+  background-color: black;
+  opacity: 0.4;
+  position: fixed;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.chat_list_wraper.data-v-5cebb222 {
+  padding-bottom: 270rpx;
+  box-sizing: border-box;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+.chat_list.data-v-5cebb222 {
+  width: 100%;
+  height: 128rpx;
+  overflow: hidden;
+}
+.tap_mask.data-v-5cebb222 {
+  width: 100%;
+  overflow: hidden;
+}
+.list_box.data-v-5cebb222 {
+  margin: 0 32rpx;
+  height: 126rpx;
+  border-bottom: 0.5px #E5E5E5 solid;
+  display: flex;
+}
+.list_left.data-v-5cebb222 {
+  width: 63%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.list_text.data-v-5cebb222 {
+  width: 60%;
+  height: 100%;
+  float: left;
+  font-size: 28rpx;
+}
+.list_pic.data-v-5cebb222 {
+  margin-right: 20rpx;
+}
+.list_pic image.data-v-5cebb222 {
+  display: block;
+  width: 88rpx;
+  height: 88rpx;
+}
+.list_user.data-v-5cebb222,
+.list_user2.data-v-5cebb222 {
+  font-size: 34rpx;
+  color: #000;
+  position: relative;
+  top: 22rpx;
+  overflow: hidden;
+  width: 350rpx;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.list_user2.data-v-5cebb222 {
+  top: 40rpx !important;
+}
+.em-msgNum.data-v-5cebb222 {
+  color: #FFFFFF;
+  background: #FF5656;
+  border-radius: 100%;
+  position: absolute;
+  right: 30rpx;
+  bottom: 20rpx;
+  display: inline-block;
+  width: 48rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-size: 24rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.list_word.data-v-5cebb222 {
+  height: 40rpx;
+  display: block;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  width: 70%;
+  font-size: 24rpx;
+  color: #9B9B9B;
+  top: 66rpx;
+}
+.list_right.data-v-5cebb222 {
+  width: 240rpx;
+  height: 100%;
+  float: right;
+  font-size: 24rpx;
+  text-align: right;
+}
+.list_right text.data-v-5cebb222:first-child {
+  display: block;
+  line-height: 60rpx;
+  margin: 12rpx auto auto auto;
+}
+.list_right text.data-v-5cebb222:last-child {
+  height: 40rpx;
+  font-size: 26rpx;
+  color: #CFCFCF;
+  display: block;
+  margin-top: 4rpx;
+}
+.chat_noChat.data-v-5cebb222 {
+  text-align: center;
+  font-size: 30rpx;
+  color: #9B9B9B;
+  margin-top: 400rpx;
+}
+.ctbg.data-v-5cebb222 {
+  width: 138px;
+  height: 106px;
+  display: block;
+  margin: 20rpx auto;
+}
+.current-card.data-v-5cebb222 {
+  background-color: #fff;
+  width: 100%;
+  min-height: calc(100vh - 132rpx);
+  position: relative;
+  top: -40rpx;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 30rpx 0 0;
+}
+

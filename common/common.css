@@ -1,0 +1,112 @@
+.vh-100 {
+	height: 100vh;
+}
+
+.vw-100 {
+	width: 100vw;
+}
+
+.p-1 {
+	padding: 10upx;
+}
+
+.p-2 {
+	padding: 20upx;
+}
+
+.p-3 {
+	padding: 30upx;
+}
+
+.pt-3 {
+	padding-top: 30upx;
+}
+
+.pb-3 {
+	padding-bottom: 30upx;
+}
+
+.mt-3 {
+	margin-top: 30upx;
+}
+
+.ml-1 {
+	margin-left: 10upx;
+}
+
+.mt-1 {
+	margin-top: 10upx;
+}
+
+.ml-3 {
+	margin-left: 30upx;
+}
+
+.ml-4 {
+	margin-left: 40upx;
+}
+
+.mb-2 {
+	margin-bottom: 20upx;
+}
+
+.mr-3 {
+	margin-right: 30upx;
+}
+
+.mr-2 {
+	margin-right: 20upx;
+}
+
+.box-border {
+	box-sizing: border-box;
+}
+
+.pt-re {
+	position: relative;
+}
+
+.pt-ab {
+	position: absolute;
+}
+
+.grid {
+	display: grid;
+
+}
+
+.plr-2 {
+	padding: 0 20upx;
+}
+
+.plr-3 {
+	padding: 0 30upx;
+}
+
+.f-row {
+	display: flex;
+
+}
+
+.f-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.jc-sb {
+	justify-content: space-between;
+}
+
+.jc-c {
+	justify-content: center;
+}
+
+.ai-c {
+	align-items: center;
+}
+
+.one-worp {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

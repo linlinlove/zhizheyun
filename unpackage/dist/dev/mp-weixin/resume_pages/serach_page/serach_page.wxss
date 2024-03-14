@@ -1,0 +1,11 @@
+
+.serach-parent.data-v-76503f32 {
+	background-color: $common-color;
+	padding: 30rpx 20rpx 80rpx;
+}
+.noMore.data-v-76503f32{
+	text-align: center;
+	color: #797575;
+	margin-top: 20rpx;
+}
+

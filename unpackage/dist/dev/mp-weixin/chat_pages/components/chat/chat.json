@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "chat-msglist": "/chat_pages/components/chat/msglist/msglist",
+    "chat-inputbar": "/chat_pages/components/chat/inputbar/inputbar",
+    "chat-suit-audio": "/chat_pages/components/chat/inputbar/suit/audio/audio",
+    "chat-emedia-invite": "/chat_pages/components/chat/emediaInvite/emediaInvite",
+    "chat-multi-emedia": "/chat_pages/components/chat/multiemedia/index"
+  }
+}

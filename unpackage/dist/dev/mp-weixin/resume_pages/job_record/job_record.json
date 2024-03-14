@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "求职记录",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "has-interview": "/resume_pages/components/hasInterview",
+    "post-card": "/components/common/postCrad"
+  }
+}

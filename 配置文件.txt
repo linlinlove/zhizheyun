@@ -1,0 +1,5 @@
+小程序修改服务器文件夹在小程序代码文件下的目录：request/baseUrl.js
+小程序基础库版本：2.29.2
+node版本库：v14.18.0
+小程序appid:wx53d7e5b40d7f10f8
+小程序是基于uniapp开发的需要在编辑器hbuilderx下开发

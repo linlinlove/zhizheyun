@@ -1,0 +1,1 @@
+.swipedelete-wrapper{transition:all .4s ease;position:relative}.swipedelete-btn{position:absolute;right:-160rpx;top:0;background-color:#d0021b;width:160rpx;height:100%;text-align:center;color:#fff;display:flex;align-items:center;justify-content:center}

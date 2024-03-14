@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "求职发布",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "job-posting-com": "/resume_pages/components/job_posting"
+  }
+}

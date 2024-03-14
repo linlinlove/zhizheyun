@@ -1,0 +1,1 @@
+.wraper{position:fixed;bottom:0;height:200rpx;width:100%;z-index:9;background:#fff}.other-button-hover{background-color:#00f}.button-cancel{position:absolute;width:100%;bottom:0}

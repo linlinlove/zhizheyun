@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#157DFA",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "head-com": "/components/news/head",
+    "news-list": "/components/news/newsList"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "添加求职期望",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
+    "button-operation": "/components/common/buttonOperation"
+  }
+}

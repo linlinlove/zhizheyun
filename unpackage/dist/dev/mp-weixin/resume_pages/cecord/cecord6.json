@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的实录",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "basic-info": "/resume_pages/components/basicInfo",
+    "education-experience": "/resume_pages/components/educationExperience",
+    "actual-experience": "/resume_pages/components/actualExperience",
+    "work-experience": "/resume_pages/components/workExperience",
+    "center-show": "/components/common/centerShow"
+  }
+}

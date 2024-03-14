@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/index/indexIconTitle"],{"2c32":function(e,t,n){"use strict";var i=n("e56f"),c=n.n(i);c.a},"49dc":function(e,t,n){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n={data:function(){return{list:[{imgUrl:"/static/icon/index/sxqz.png",text:"实训求职",url:"/pages/position/position",type:1},{imgUrl:"/static/icon/index/jydz.png",text:"就业定制",url:"/pages/customized/customized",type:1},{imgUrl:"/static/icon/index/cxcy.png",text:"创新创业",url:"/resume_pages/entrepreneurship/entrepreneurship"},{imgUrl:"/static/icon/index/cykc.png",text:"产业课程",url:"/pages/index/industry_courses"},{imgUrl:"/static/icon/index/wdsl.png",text:"我的实录",url:"/resume_pages/cecord/cecord"},{imgUrl:"/static/icon/index/jxgy.png",text:"践行公益",url:"/resume_pages/practicewelfare/practicewelfare"}]}},methods:{Jump:function(t){t.type?e.switchTab({url:t.url}):e.navigateTo({url:t.url})}}};t.default=n}).call(this,n("543d")["default"])},6282:function(e,t,n){"use strict";n.d(t,"b",(function(){return i})),n.d(t,"c",(function(){return c})),n.d(t,"a",(function(){}));var i=function(){var e=this.$createElement;this._self._c},c=[]},"8eb0":function(e,t,n){"use strict";n.r(t);var i=n("49dc"),c=n.n(i);for(var r in i)["default"].indexOf(r)<0&&function(e){n.d(t,e,(function(){return i[e]}))}(r);t["default"]=c.a},be09:function(e,t,n){"use strict";n.r(t);var i=n("6282"),c=n("8eb0");for(var r in c)["default"].indexOf(r)<0&&function(e){n.d(t,e,(function(){return c[e]}))}(r);n("2c32");var u=n("f0c5"),a=Object(u["a"])(c["default"],i["b"],i["c"],!1,null,"dd3857a8",null,!1,i["a"],void 0);t["default"]=a.exports},e56f:function(e,t,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/index/indexIconTitle-create-component',
+    {
+        'components/index/indexIconTitle-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("be09"))
+        })
+    },
+    [['components/index/indexIconTitle-create-component']]
+]);

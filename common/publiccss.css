@@ -1,0 +1,250 @@
+.btn_none {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF0;
+	border: 0rpx;
+	border-radius: 0;
+}
+
+.btn_none::after {
+	border: none;
+}
+
+
+/* 全局felx盒子定位 */
+.flex-r-s-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+
+.flex-r-s-e {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: flex-start !important;
+	align-items: flex-end !important;
+}
+
+.flex-r-b-e {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: flex-end !important;
+	align-items: center !important;
+}
+
+.flex-r-a-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+}
+
+.flex-r-b-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+
+.flex-r-c-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.flex-r-s-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: flex-start !important;
+	align-items: flex-start !important;
+}
+
+.flex-r-a-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: space-around !important;
+	align-items: flex-start !important;
+}
+
+.flex-r-b-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: space-between !important;
+	align-items: flex-start !important;
+}
+
+.flex-r-c-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: flex-start !important;
+}
+
+.flex-c-s-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+
+.flex-c-c-e {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: flex-end !important;
+}
+
+.flex-cr-s-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column-reverse !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+
+.flex-c-a-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+}
+
+.flex-c-b-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+
+.flex-c-b-e {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: space-between !important;
+	align-items: flex-end !important;
+}
+
+.flex-c-c-c {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.flex-c-s-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: flex-start !important;
+	align-items: flex-start !important;
+}
+
+.flex-c-a-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: space-around !important;
+	align-items: flex-start !important;
+}
+
+.flex-c-b-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: space-between !important;
+	align-items: flex-start !important;
+}
+
+.flex-r-e-b {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: row !important;
+	justify-content: flex-end !important;
+	align-items: baseline !important;
+}
+
+.flex-c-c-s {
+	/* #ifndef APP-NVUE */
+	display: flex !important;
+	/* #endif */
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: flex-start !important;
+}
+
+ /* 字体单行超出隐显示3个点 */
+.one-line-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* #ifndef APP-NVUE */
+	word-wrap: anywhere;
+	/* #endif */
+}
+
+.one-line-ellipsis {
+	lines: 1;
+}
+
+.one-line-ellipsis {
+	white-space: nowrap;
+}
+
+ /* 字体双行超出隐显示3个点 */
+.two-line-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* #ifndef APP-NVUE */
+	word-wrap: anywhere;
+	/* #endif */
+
+}
+
+.two-line-ellipsis {
+	lines: 2;
+}
+
+.two-line-ellipsis {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "chat": "/chat_pages/components/chat/chat"
+  }
+}

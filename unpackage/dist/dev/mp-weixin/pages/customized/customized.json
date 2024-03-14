@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "就业定制",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "image-show": "/components/common/imageShow",
+    "post-card": "/components/common/postCrad"
+  }
+}

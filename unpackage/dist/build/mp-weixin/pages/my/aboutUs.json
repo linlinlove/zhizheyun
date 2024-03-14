@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse"
+  }
+}

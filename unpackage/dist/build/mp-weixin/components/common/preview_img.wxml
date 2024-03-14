@@ -1,0 +1,1 @@
+<view class="preview_img data-v-2a749176"><block wx:for="{{imgs}}" wx:for-item="i" wx:for-index="k"><image src="{{i}}" mode data-event-opts="{{[['tap',[['preImgs',[k]]]]]}}" bindtap="__e" class="data-v-2a749176"></image></block></view>

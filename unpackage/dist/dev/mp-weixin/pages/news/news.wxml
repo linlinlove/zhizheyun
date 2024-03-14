@@ -1,0 +1,1 @@
+<view><head-com vue-id="1cdd0ce0-1" bind:__l="__l"></head-com><news-list class="vue-ref" bind:jumpDetailFn="__e" vue-id="1cdd0ce0-2" data-ref="child" data-event-opts="{{[['^jumpDetailFn',[['jumpDetailFn']]]]}}" bind:__l="__l"></news-list></view>

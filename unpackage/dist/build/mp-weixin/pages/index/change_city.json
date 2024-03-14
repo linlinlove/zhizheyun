@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "serach-input": "/components/common/serachInput"
+  }
+}
